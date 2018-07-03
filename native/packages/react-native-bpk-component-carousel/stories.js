@@ -19,7 +19,7 @@
 import React from 'react';
 import { Image, StyleSheet } from 'react-native';
 import { storiesOf } from '@storybook/react-native';
-import { colorGray300 } from 'bpk-tokens/tokens/base.react.native';
+import { spacingSm, colorGray300 } from 'bpk-tokens/tokens/base.react.native';
 import BpkText from 'react-native-bpk-component-text';
 import CenterDecorator from '../../storybook/CenterDecorator';
 import BpkCarousel, { BpkCarouselItem } from './index';
@@ -33,8 +33,8 @@ const styles = StyleSheet.create({
   },
   view: {
     alignSelf: 'center',
-    width: 350,
-    height: 233,
+    width: spacingSm,
+    height: spacingSm,
   },
 });
 

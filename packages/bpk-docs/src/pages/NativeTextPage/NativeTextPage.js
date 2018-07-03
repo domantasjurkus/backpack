@@ -22,6 +22,7 @@ import iosScreenshot from 'react-native-bpk-component-text/screenshots/ios/defau
 import androidScreenshot from 'react-native-bpk-component-text/screenshots/android/default.png';
 import iosScreenshotBold from 'react-native-bpk-component-text/screenshots/ios/emphasize.png';
 import androidScreenshotBold from 'react-native-bpk-component-text/screenshots/android/emphasize.png';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import DocsPageBuilder from './../../components/DocsPageBuilder';
 
@@ -32,16 +33,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshot}`,
         altText: 'iOS Default Text Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshot}`,
         altText: 'Android Default Text Component',
         subText: '(Google Pixel emulator)',
@@ -54,16 +55,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotBold}`,
         altText: 'iOS Emphasized Text Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotBold}`,
         altText: 'Android Emphasized Text Component',
         subText: '(Google Pixel emulator)',

@@ -20,6 +20,7 @@ import React from 'react';
 import { Image, Platform, StyleSheet, View } from 'react-native';
 import PropTypes from 'prop-types';
 import { storiesOf } from '@storybook/react-native';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 import BpkFlatList, {
   BpkFlatListItem,
   BpkFlatListItemSeparator,
@@ -27,11 +28,11 @@ import BpkFlatList, {
 
 const styles = StyleSheet.create({
   topMargin: {
-    marginTop: 20,
+    marginTop: spacingSm,
   },
   image: {
-    height: 16,
-    width: 24,
+    height: spacingSm,
+    width: spacingSm,
   },
 });
 

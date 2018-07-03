@@ -22,6 +22,7 @@ import iosScreenshoDialingCodeList from 'react-native-bpk-component-phone-input/
 import iosScreenshotPhoneNumberInput from 'react-native-bpk-component-phone-input/screenshots/ios/phone-number-input.png';
 import androidScreenshotDialingCodeList from 'react-native-bpk-component-phone-input/screenshots/android/dialing-code-list.png';
 import androidScreenshotPhoneNumberInput from 'react-native-bpk-component-phone-input/screenshots/android/phone-number-input.png';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import Paragraph from './../../components/Paragraph';
 import DocsPageBuilder from './../../components/DocsPageBuilder';
@@ -33,16 +34,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshoDialingCodeList}`,
         altText: 'iOS Dialing Code List Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotDialingCodeList}`,
         altText: 'Android Dialing Code List Component',
         subText: '(Google Pixel emulator)',
@@ -55,16 +56,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotPhoneNumberInput}`,
         altText: 'iOS Dialing Code List Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotPhoneNumberInput}`,
         altText: 'Android Dialing Code List Component',
         subText: '(Google Pixel emulator)',

@@ -21,6 +21,7 @@ import readme from 'react-native-bpk-component-button-link/readme.md';
 
 import iosScreenshot from 'react-native-bpk-component-button-link/screenshots/ios/default.png';
 import androidScreenshot from 'react-native-bpk-component-button-link/screenshots/android/default.png';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import DocsPageBuilder from './../../components/DocsPageBuilder';
 
@@ -32,16 +33,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshot}`,
         altText: 'iOS Default Button Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshot}`,
         altText: 'Android Default Button Component',
         subText: '(Google Pixel emulator)',

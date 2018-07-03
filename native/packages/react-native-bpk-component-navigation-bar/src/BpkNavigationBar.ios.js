@@ -26,6 +26,7 @@ import {
   makeThemePropType,
 } from 'react-native-bpk-theming';
 import {
+  spacingSm,
   colorGray50,
   colorGray100,
   colorGray300,
@@ -52,20 +53,20 @@ const statusBarPadding = isIphoneX ? 44 : 20;
 const styles = StyleSheet.create({
   barOuter: {
     flexDirection: 'column',
-    paddingHorizontal: 8,
+    paddingHorizontal: spacingSm,
     width: '100%',
     backgroundColor: colorGray50,
     shadowColor: colorGray100,
     shadowOpacity: 1,
     shadowRadius: 0,
-    shadowOffset: { width: 0, height: 1 },
+    shadowOffset: { width: 0, height: spacingSm },
   },
   barOuterWithSubtitle: {
-    paddingBottom: 16,
+    paddingBottom: spacingSm,
   },
   barInner: {
     paddingTop: statusBarPadding, // Status bar
-    height: 64, // 44 for the bar + 20 for the status bar
+    height: spacingSm, // 44 for the bar + 20 for the status bar
     overflow: 'visible',
     flexDirection: 'row',
     alignItems: 'center',
@@ -76,7 +77,7 @@ const styles = StyleSheet.create({
   },
   iPhoneXBar: {
     paddingTop: statusBarPadding,
-    height: 88,
+    height: spacingSm,
   },
   titleContainer: {
     position: 'absolute',
@@ -84,7 +85,7 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     bottom: 0,
-    height: 44,
+    height: spacingSm,
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -92,7 +93,7 @@ const styles = StyleSheet.create({
     maxWidth: '60%',
   },
   subtitleViewContainer: {
-    paddingHorizontal: 8,
+    paddingHorizontal: spacingSm,
   },
 });
 
@@ -197,7 +198,7 @@ class BpkNavigationBar extends Component<Props, {}> {
       titleView = React.cloneElement(title, {
         style: [
           title.props.style ? title.props.style : null,
-          { maxHeight: 28 },
+          { maxHeight: spacingSm },
         ],
       });
     }

@@ -46,7 +46,7 @@ exports[`iOS withDivider should render correctly 1`] = `
           "flexDirection": "column",
           "marginBottom": 8,
           "marginTop": 8,
-          "width": 1,
+          "width": 4,
         },
       ]
     }
@@ -121,7 +121,7 @@ exports[`iOS withDivider should render correctly with arbitrary props 1`] = `
           "flexDirection": "column",
           "marginBottom": 8,
           "marginTop": 8,
-          "width": 1,
+          "width": 4,
         },
       ]
     }
@@ -198,7 +198,7 @@ exports[`iOS withDivider should render correctly with custom main style 1`] = `
           "flexDirection": "column",
           "marginBottom": 8,
           "marginTop": 8,
-          "width": 1,
+          "width": 4,
         },
       ]
     }
@@ -272,7 +272,7 @@ exports[`iOS withDivider should render correctly with custom stub style 1`] = `
           "flexDirection": "column",
           "marginBottom": 8,
           "marginTop": 8,
-          "width": 1,
+          "width": 4,
         },
       ]
     }
@@ -346,7 +346,7 @@ exports[`iOS withDivider should render correctly without padding 1`] = `
           "flexDirection": "column",
           "marginBottom": 8,
           "marginTop": 8,
-          "width": 1,
+          "width": 4,
         },
       ]
     }

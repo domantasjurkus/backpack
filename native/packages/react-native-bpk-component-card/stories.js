@@ -20,6 +20,7 @@ import React from 'react';
 import { ScrollView, StyleSheet } from 'react-native';
 import BpkText from 'react-native-bpk-component-text';
 import { storiesOf, action } from '@storybook/react-native';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import BpkCard, { withDivider } from './index';
 import CenterDecorator from '../../storybook/CenterDecorator';
@@ -50,7 +51,7 @@ const styles = StyleSheet.create({
     overflow: 'visible',
   },
   cardListItem: {
-    marginTop: 20,
+    marginTop: spacingSm,
   },
   cardMainStyle: {
     flex: 3,

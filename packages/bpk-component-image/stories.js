@@ -20,6 +20,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 
 import BpkMobileScrollContainer from 'bpk-component-mobile-scroll-container';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 import BpkImage, {
   /* BpkBackgroundImage, */ withLazyLoading,
   withLoadingBehavior,
@@ -42,7 +43,7 @@ storiesOf('bpk-component-image', module)
       altText="image"
       width={612}
       height={408}
-      style={{ width: 612, height: 408 }}
+      style={{ width: spacingSm, height: spacingSm }}
       src={image}
     />
   ))
@@ -68,7 +69,7 @@ storiesOf('bpk-component-image', module)
       altText="image"
       width={612}
       height={408}
-      style={{ width: 612, height: 408 }}
+      style={{ width: spacingSm, height: spacingSm }}
       src={image}
     />
   ))
@@ -77,7 +78,7 @@ storiesOf('bpk-component-image', module)
       altText="image"
       width={612}
       height={408}
-      style={{ width: 612, height: 408 }}
+      style={{ width: spacingSm, height: spacingSm }}
       src={image}
     />
   ))
@@ -86,7 +87,7 @@ storiesOf('bpk-component-image', module)
       altText="image"
       width={612}
       height={408}
-      style={{ width: 612, height: 408 }}
+      style={{ width: spacingSm, height: spacingSm }}
       src={image}
     />
   ))
@@ -97,21 +98,21 @@ storiesOf('bpk-component-image', module)
           altText="image"
           width={612}
           height={408}
-          style={{ width: 612, height: 408 }}
+          style={{ width: spacingSm, height: spacingSm }}
           src={image}
         />
         <FadingLazyLoadedImage
           altText="image"
           width={612}
           height={408}
-          style={{ width: 612, height: 408 }}
+          style={{ width: spacingSm, height: spacingSm }}
           src={image}
         />
         <FadingLazyLoadedImage
           altText="image"
           width={612}
           height={408}
-          style={{ width: 612, height: 408 }}
+          style={{ width: spacingSm, height: spacingSm }}
           src={image}
         />
       </div>

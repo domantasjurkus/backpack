@@ -4,7 +4,7 @@ exports[`BpkChartAxis X should render band scale 1`] = `
 <g
   className="bpk-chart__axis"
   textAnchor="middle"
-  transform="translate(0, 120)"
+  transform="translate(0, NaN)"
 >
   <g
     transform="translate(16.666666666666668, 0)"
@@ -79,7 +79,7 @@ exports[`BpkChartAxis X should render band scale with "tickEvery" and "tickOffse
 <g
   className="bpk-chart__axis"
   textAnchor="middle"
-  transform="translate(0, 120)"
+  transform="translate(0, NaN)"
 >
   <g
     transform="translate(50, 0)"
@@ -121,7 +121,7 @@ exports[`BpkChartAxis X should render band scale with "tickEvery" attribute 1`] 
 <g
   className="bpk-chart__axis"
   textAnchor="middle"
-  transform="translate(0, 120)"
+  transform="translate(0, NaN)"
 >
   <g
     transform="translate(16.666666666666668, 0)"
@@ -163,7 +163,7 @@ exports[`BpkChartAxis X should render linear scale 1`] = `
 <g
   className="bpk-chart__axis"
   textAnchor="middle"
-  transform="translate(0, 120)"
+  transform="translate(0, NaN)"
 >
   <g
     transform="translate(18.947368421052634, 0)"
@@ -271,7 +271,7 @@ exports[`BpkChartAxis X should render linear scale with "numTicks" attribute 1`]
 <g
   className="bpk-chart__axis"
   textAnchor="middle"
-  transform="translate(0, 120)"
+  transform="translate(0, NaN)"
 >
   <g
     transform="translate(82.10526315789474, 0)"
@@ -302,7 +302,7 @@ exports[`BpkChartAxis X should render with label 1`] = `
 <g
   className="bpk-chart__axis"
   textAnchor="middle"
-  transform="translate(0, 120)"
+  transform="translate(0, NaN)"
 >
   <g
     transform="translate(18.947368421052634, 0)"
@@ -406,8 +406,8 @@ exports[`BpkChartAxis X should render with label 1`] = `
   <text
     className="bpk-chart__axis-label"
     textAnchor="middle"
-    x={60}
-    y={34}
+    x={NaN}
+    y={NaN}
   >
     X axis label
   </text>
@@ -852,7 +852,7 @@ exports[`BpkChartAxis Y should render with label 1`] = `
   <text
     className="bpk-chart__axis-label"
     textAnchor="middle"
-    transform="translate(-22, 60) rotate(-90)"
+    transform="translate(NaN, NaN) rotate(-90)"
   >
     Y axis label
   </text>

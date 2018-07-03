@@ -27,6 +27,7 @@ import androidScreenshotPrimary from 'react-native-bpk-component-button/screensh
 import androidScreenshotSecondary from 'react-native-bpk-component-button/screenshots/android/secondary.png';
 import androidScreenshotDestructive from 'react-native-bpk-component-button/screenshots/android/destructive.png';
 import androidScreenshotFeatured from 'react-native-bpk-component-button/screenshots/android/featured.png';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import DocsPageBuilder from './../../components/DocsPageBuilder';
 
@@ -37,16 +38,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotPrimary}`,
         altText: 'iOS Primary Button Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotPrimary}`,
         altText: 'Android Primary Button Component',
         subText: '(Google Pixel emulator)',
@@ -59,16 +60,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotSecondary}`,
         altText: 'iOS Secondary Button Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotSecondary}`,
         altText: 'Android Secondary Button Component',
         subText: '(Google Pixel emulator)',
@@ -81,16 +82,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotDestructive}`,
         altText: 'iOS Destructive Button Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotDestructive}`,
         altText: 'Android Destructive Button Component',
         subText: '(Google Pixel emulator)',
@@ -103,16 +104,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotFeatured}`,
         altText: 'iOS Featured Button Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotFeatured}`,
         altText: 'Android Featured Button Component',
         subText: '(Google Pixel emulator)',

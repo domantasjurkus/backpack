@@ -22,6 +22,7 @@ import { View, StyleSheet } from 'react-native';
 import React from 'react';
 import PropTypes from 'prop-types';
 import {
+  spacingSm,
   colorBlue500,
   colorGray100,
 } from 'bpk-tokens/tokens/base.react.native';
@@ -33,7 +34,7 @@ const innerSize = radioSize / 2;
 const styles = StyleSheet.create({
   outer: {
     borderRadius: radioSize,
-    borderWidth: 2,
+    borderWidth: spacingSm,
     borderColor: colorGray100,
     height: radioSize,
     width: radioSize,

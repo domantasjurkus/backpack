@@ -24,6 +24,7 @@ import readme from 'react-native-bpk-component-touchable-overlay/readme.md';
 
 import iosScreenshotDefault from 'react-native-bpk-component-touchable-overlay/screenshots/default.png';
 import iosScreenshotTouchableHighlight from 'react-native-bpk-component-touchable-overlay/screenshots/touchable-highlight.png';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import IntroBlurb from './../../components/IntroBlurb';
 import DocsPageBuilder from './../../components/DocsPageBuilder';
@@ -39,16 +40,16 @@ const components = [
     screenshots: [
       {
         title: 'Touchable overlay',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotDefault}`,
         altText: 'Backpack Touchable overlay component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: "React Native's touchable highlight",
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotTouchableHighlight}`,
         altText: "React Native's touchable highlight component",
         subText: '(iPhone 8 simulator)',

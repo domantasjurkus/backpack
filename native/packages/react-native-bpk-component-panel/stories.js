@@ -22,6 +22,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react-native';
 import { ScrollView, StyleSheet } from 'react-native';
 import BpkText from 'react-native-bpk-component-text';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import BpkPanel, { withDivider } from './index';
 import CenterDecorator from '../../storybook/CenterDecorator';
@@ -50,7 +51,7 @@ const styles = StyleSheet.create({
     overflow: 'visible',
   },
   panelListItem: {
-    marginTop: 20,
+    marginTop: spacingSm,
   },
   panelMainStyle: {
     flex: 3,

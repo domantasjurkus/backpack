@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     padding: spacingBase,
   },
   cardPunchline: {
-    width: 1,
+    width: spacingSm,
     marginTop: spacingMd,
     marginBottom: spacingMd,
     flexDirection: 'column',

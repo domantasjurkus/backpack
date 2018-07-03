@@ -23,6 +23,7 @@ import iosScreenshotDefault from 'react-native-bpk-component-spinner/screenshots
 import iosScreenshotSmall from 'react-native-bpk-component-spinner/screenshots/ios/small.png';
 import androidScreenshotDefault from 'react-native-bpk-component-spinner/screenshots/android/default.png';
 import androidScreenshotSmall from 'react-native-bpk-component-spinner/screenshots/android/small.png';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import DocsPageBuilder from './../../components/DocsPageBuilder';
 
@@ -35,16 +36,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotDefault}`,
         altText: 'iOS Default Spinner Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotDefault}`,
         altText: 'Android Default Spinner Component',
         subText: '(Google Pixel emulator)',
@@ -59,16 +60,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotSmall}`,
         altText: 'iOS Small Spinner Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotSmall}`,
         altText: 'Android Small Spinner Component',
         subText: '(Google Pixel emulator)',

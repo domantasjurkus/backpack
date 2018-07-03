@@ -26,6 +26,7 @@ import iosScreenshotExpandable from 'react-native-bpk-component-banner-alert/scr
 import androidScreenshotDefault from 'react-native-bpk-component-banner-alert/screenshots/android/default.png';
 import androidScreenshotDismissable from 'react-native-bpk-component-banner-alert/screenshots/android/dismissable.png';
 import androidScreenshotExpandable from 'react-native-bpk-component-banner-alert/screenshots/android/expandable.png';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import DocsPageBuilder from './../../components/DocsPageBuilder';
 
@@ -36,16 +37,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotDefault}`,
         altText: 'iOS Default Banner Alert Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotDefault}`,
         altText: 'Android Default Banner Alert Component',
         subText: '(Google Pixel emulator)',
@@ -58,16 +59,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotDismissable}`,
         altText: 'iOS Dismissable Banner Alert Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotDismissable}`,
         altText: 'Android Dismissable Banner Alert Component',
         subText: '(Google Pixel emulator)',
@@ -80,16 +81,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotExpandable}`,
         altText: 'iOS Expandable Banner Alert Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotExpandable}`,
         altText: 'Android Expandable Banner Alert Component',
         subText: '(Google Pixel emulator)',

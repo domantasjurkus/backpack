@@ -29,6 +29,7 @@ import iosScreenshot from 'react-native-bpk-component-map/screenshots/ios/defaul
 import androidScreenshot from 'react-native-bpk-component-map/screenshots/android/default.png';
 import nativeMapReadme from 'react-native-bpk-component-map/readme.md';
 import mapReadme from 'bpk-component-map/readme.md';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import STYLES from './MapPage.scss';
 
@@ -71,16 +72,16 @@ const nativeComponents = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshot}`,
         altText: 'iOS Map Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshot}`,
         altText: 'Android Map Component',
         subText: '(Google Pixel emulator)',

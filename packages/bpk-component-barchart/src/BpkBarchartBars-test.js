@@ -20,15 +20,16 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
 import { scaleLinear, scaleBand } from 'd3-scale';
+import { spacingSm } from 'bpk-tokens/tokens/base.es6';
 import BpkBarchartBars from './BpkBarchartBars';
 import BpkBarchartBar from './BpkBarchartBar';
 import data from '../data.json';
 
 const margin = {
-  top: 10,
-  right: 20,
-  bottom: 30,
-  left: 40,
+  top: spacingSm,
+  right: spacingSm,
+  bottom: spacingSm,
+  left: spacingSm,
 };
 const { prices } = data;
 const size = 200;

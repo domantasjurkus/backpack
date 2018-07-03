@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
         justifyContent: 'flex-start',
         alignItems: 'center',
         borderTopColor: colorGray100,
-        borderTopWidth: 1,
+        borderTopWidth: spacingSm,
         flexDirection: 'row',
         height: ANDROID_LIST_ITEM_HEIGHT,
       },

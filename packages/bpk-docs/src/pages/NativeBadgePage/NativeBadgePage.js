@@ -25,6 +25,7 @@ import iosScreenshotDockedEnd from 'react-native-bpk-component-badge/screenshots
 import androidScreenshotDefault from 'react-native-bpk-component-badge/screenshots/android/default.png';
 import androidScreenshotDockedStart from 'react-native-bpk-component-badge/screenshots/android/docked-start.png';
 import androidScreenshotDockedEnd from 'react-native-bpk-component-badge/screenshots/android/docked-end.png';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import DocsPageBuilder from './../../components/DocsPageBuilder';
 
@@ -35,16 +36,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotDefault}`,
         altText: 'iOS Default Badge Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotDefault}`,
         altText: 'Android Default Badge Component',
         subText: '(Google Pixel emulator)',
@@ -57,16 +58,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotDockedStart}`,
         altText: 'iOS Docked (start) Badge Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotDockedStart}`,
         altText: 'Android Docked (start) Badge Component',
         subText: '(Google Pixel emulator)',
@@ -79,16 +80,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotDockedEnd}`,
         altText: 'iOS Docked (end) Badge Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotDockedEnd}`,
         altText: 'Android Docked (end) Badge Component',
         subText: '(Google Pixel emulator)',

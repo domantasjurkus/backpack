@@ -23,6 +23,7 @@ import iosScreenshotDefault from 'react-native-bpk-component-section-list/screen
 import androidScreenshotDefault from 'react-native-bpk-component-section-list/screenshots/android/default.png';
 import iosScreenshotWithImages from 'react-native-bpk-component-section-list/screenshots/ios/with-images.png';
 import androidScreenshotWithImages from 'react-native-bpk-component-section-list/screenshots/android/with-images.png';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import DocsPageBuilder from './../../components/DocsPageBuilder';
 
@@ -33,16 +34,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotDefault}`,
         altText: 'iOS Default Section List Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotDefault}`,
         altText: 'Android Default Section List Component',
         subText: '(Google Pixel emulator)',
@@ -56,16 +57,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotWithImages}`,
         altText: 'iOS Section List Component With Images',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotWithImages}`,
         altText: 'Android Section List Component With Images',
         subText: '(Google Pixel emulator)',

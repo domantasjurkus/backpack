@@ -23,6 +23,7 @@ import iosScreenshotDefault from 'react-native-bpk-component-flat-list/screensho
 import androidScreenshotDefault from 'react-native-bpk-component-flat-list/screenshots/android/default.png';
 import iosScreenshotWithImages from 'react-native-bpk-component-flat-list/screenshots/ios/with-images.png';
 import androidScreenshotWithImages from 'react-native-bpk-component-flat-list/screenshots/android/with-images.png';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import IntroBlurb from './../../components/IntroBlurb';
 import DocsPageBuilder from './../../components/DocsPageBuilder';
@@ -35,16 +36,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotDefault}`,
         altText: 'iOS Default Flat List Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotDefault}`,
         altText: 'Android Default Flat List Component',
         subText: '(Google Pixel emulator)',
@@ -58,16 +59,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotWithImages}`,
         altText: 'iOS Flat List Component With Images',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotWithImages}`,
         altText: 'Android Flat List Component With Images',
         subText: '(Google Pixel emulator)',

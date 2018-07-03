@@ -23,6 +23,7 @@ import BpkBlockquote from 'bpk-component-blockquote';
 import readme from 'react-native-bpk-component-touchable-native-feedback/readme.md';
 
 import androidScreenshotDefault from 'react-native-bpk-component-touchable-native-feedback/screenshots/default.png';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import IntroBlurb from './../../components/IntroBlurb';
 import DocsPageBuilder from './../../components/DocsPageBuilder';
@@ -39,8 +40,8 @@ const components = [
     screenshots: [
       {
         title: 'Touchable native feedback',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotDefault}`,
         altText: 'Backpack touchable native feedback component',
         subText: '(Google Pixel emulator)',

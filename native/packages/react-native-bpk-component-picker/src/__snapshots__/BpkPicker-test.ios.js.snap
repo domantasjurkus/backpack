@@ -50,7 +50,7 @@ exports[`iOS BpkPicker should render correctly 1`] = `
         Object {
           "backgroundColor": "rgb(243, 242, 245)",
           "borderColor": "rgb(204, 201, 212)",
-          "borderTopWidth": 1,
+          "borderTopWidth": 4,
           "flex": 1,
           "flexDirection": "row",
           "justifyContent": "flex-end",
@@ -215,7 +215,7 @@ exports[`iOS BpkPicker should render correctly with a selected value 1`] = `
         Object {
           "backgroundColor": "rgb(243, 242, 245)",
           "borderColor": "rgb(204, 201, 212)",
-          "borderTopWidth": 1,
+          "borderTopWidth": 4,
           "flex": 1,
           "flexDirection": "row",
           "justifyContent": "flex-end",

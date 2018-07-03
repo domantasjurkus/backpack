@@ -22,6 +22,7 @@ import PropTypes from 'prop-types';
 import { StyleSheet, TouchableOpacity } from 'react-native';
 import BpkIcon, { icons } from 'react-native-bpk-component-icon';
 import {
+  spacingSm,
   colorGray300,
   colorGray700,
 } from 'bpk-tokens/tokens/base.react.native';
@@ -47,10 +48,10 @@ const styles = StyleSheet.create({
     fontSize: 28,
   },
   leading: {
-    marginStart: 3,
+    marginStart: spacingSm,
   },
   trailing: {
-    marginEnd: 3,
+    marginEnd: spacingSm,
   },
 });
 

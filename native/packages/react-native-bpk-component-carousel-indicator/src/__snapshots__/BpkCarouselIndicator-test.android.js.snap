@@ -28,7 +28,7 @@ exports[`Android BpkCarouselIndicator should render correctly 1`] = `
         "backgroundColor": "rgb(178, 174, 189)",
         "borderRadius": 40,
         "height": 6,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 6,
       }
     }
@@ -40,7 +40,7 @@ exports[`Android BpkCarouselIndicator should render correctly 1`] = `
         "backgroundColor": "rgb(178, 174, 189)",
         "borderRadius": 40,
         "height": 6,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 6,
       }
     }
@@ -52,7 +52,7 @@ exports[`Android BpkCarouselIndicator should render correctly 1`] = `
         "backgroundColor": "rgb(255, 255, 255)",
         "borderRadius": 40,
         "height": 6,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 6,
       }
     }
@@ -64,7 +64,7 @@ exports[`Android BpkCarouselIndicator should render correctly 1`] = `
         "backgroundColor": "rgb(178, 174, 189)",
         "borderRadius": 40,
         "height": 6,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 6,
       }
     }
@@ -76,7 +76,7 @@ exports[`Android BpkCarouselIndicator should render correctly 1`] = `
         "backgroundColor": "rgb(178, 174, 189)",
         "borderRadius": 40,
         "height": 6,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 6,
       }
     }
@@ -112,7 +112,7 @@ exports[`Android BpkCarouselIndicator should render correctly with a page count 
         "backgroundColor": "rgb(178, 174, 189)",
         "borderRadius": 40,
         "height": 2,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 2,
       }
     }
@@ -124,7 +124,7 @@ exports[`Android BpkCarouselIndicator should render correctly with a page count 
         "backgroundColor": "rgb(178, 174, 189)",
         "borderRadius": 40,
         "height": 4,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 4,
       }
     }
@@ -136,7 +136,7 @@ exports[`Android BpkCarouselIndicator should render correctly with a page count 
         "backgroundColor": "rgb(255, 255, 255)",
         "borderRadius": 40,
         "height": 6,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 6,
       }
     }
@@ -148,20 +148,8 @@ exports[`Android BpkCarouselIndicator should render correctly with a page count 
         "backgroundColor": "rgb(178, 174, 189)",
         "borderRadius": 40,
         "height": 4,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 4,
-      }
-    }
-  />
-  <View
-    collapsable={undefined}
-    style={
-      Object {
-        "backgroundColor": "rgb(178, 174, 189)",
-        "borderRadius": 40,
-        "height": 2,
-        "marginHorizontal": 2,
-        "width": 2,
       }
     }
   />
@@ -196,7 +184,7 @@ exports[`Android BpkCarouselIndicator should render correctly with a page count 
         "backgroundColor": "rgb(178, 174, 189)",
         "borderRadius": 40,
         "height": 2,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 2,
       }
     }
@@ -208,7 +196,7 @@ exports[`Android BpkCarouselIndicator should render correctly with a page count 
         "backgroundColor": "rgb(178, 174, 189)",
         "borderRadius": 40,
         "height": 2,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 2,
       }
     }
@@ -220,7 +208,7 @@ exports[`Android BpkCarouselIndicator should render correctly with a page count 
         "backgroundColor": "rgb(178, 174, 189)",
         "borderRadius": 40,
         "height": 4,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 4,
       }
     }
@@ -232,7 +220,7 @@ exports[`Android BpkCarouselIndicator should render correctly with a page count 
         "backgroundColor": "rgb(255, 255, 255)",
         "borderRadius": 40,
         "height": 6,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 6,
       }
     }
@@ -244,7 +232,7 @@ exports[`Android BpkCarouselIndicator should render correctly with a page count 
         "backgroundColor": "rgb(178, 174, 189)",
         "borderRadius": 40,
         "height": 4,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 4,
       }
     }
@@ -281,7 +269,7 @@ exports[`Android BpkCarouselIndicator should render correctly with arbitrary pro
         "backgroundColor": "rgb(255, 255, 255)",
         "borderRadius": 40,
         "height": 6,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 6,
       }
     }
@@ -293,7 +281,7 @@ exports[`Android BpkCarouselIndicator should render correctly with arbitrary pro
         "backgroundColor": "rgb(178, 174, 189)",
         "borderRadius": 40,
         "height": 6,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 6,
       }
     }
@@ -305,7 +293,7 @@ exports[`Android BpkCarouselIndicator should render correctly with arbitrary pro
         "backgroundColor": "rgb(178, 174, 189)",
         "borderRadius": 40,
         "height": 6,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 6,
       }
     }
@@ -317,7 +305,7 @@ exports[`Android BpkCarouselIndicator should render correctly with arbitrary pro
         "backgroundColor": "rgb(178, 174, 189)",
         "borderRadius": 40,
         "height": 6,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 6,
       }
     }
@@ -329,7 +317,7 @@ exports[`Android BpkCarouselIndicator should render correctly with arbitrary pro
         "backgroundColor": "rgb(178, 174, 189)",
         "borderRadius": 40,
         "height": 6,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 6,
       }
     }
@@ -355,7 +343,7 @@ exports[`Android BpkCarouselIndicator should render correctly with custom styles
         "width": 72,
       },
       Object {
-        "marginTop": 10,
+        "marginTop": 4,
       },
     ]
   }
@@ -367,7 +355,7 @@ exports[`Android BpkCarouselIndicator should render correctly with custom styles
         "backgroundColor": "rgb(255, 255, 255)",
         "borderRadius": 40,
         "height": 6,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 6,
       }
     }
@@ -379,7 +367,7 @@ exports[`Android BpkCarouselIndicator should render correctly with custom styles
         "backgroundColor": "rgb(178, 174, 189)",
         "borderRadius": 40,
         "height": 6,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 6,
       }
     }
@@ -391,7 +379,7 @@ exports[`Android BpkCarouselIndicator should render correctly with custom styles
         "backgroundColor": "rgb(178, 174, 189)",
         "borderRadius": 40,
         "height": 6,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 6,
       }
     }
@@ -403,7 +391,7 @@ exports[`Android BpkCarouselIndicator should render correctly with custom styles
         "backgroundColor": "rgb(178, 174, 189)",
         "borderRadius": 40,
         "height": 6,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 6,
       }
     }
@@ -415,7 +403,7 @@ exports[`Android BpkCarouselIndicator should render correctly with custom styles
         "backgroundColor": "rgb(178, 174, 189)",
         "borderRadius": 40,
         "height": 6,
-        "marginHorizontal": 2,
+        "marginHorizontal": 4,
         "width": 6,
       }
     }

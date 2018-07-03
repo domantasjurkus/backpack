@@ -6,7 +6,7 @@ exports[`Android BpkSectionListHeader should render correctly 1`] = `
     Object {
       "alignItems": "center",
       "borderTopColor": "rgb(230, 228, 235)",
-      "borderTopWidth": 1,
+      "borderTopWidth": 4,
       "flexDirection": "row",
       "height": 48,
       "justifyContent": "flex-start",

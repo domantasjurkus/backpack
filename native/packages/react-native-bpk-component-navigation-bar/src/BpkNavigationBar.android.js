@@ -32,6 +32,7 @@ import {
   makeThemePropType,
 } from 'react-native-bpk-theming';
 import {
+  spacingSm,
   colorBlue300,
   colorBlue500,
   colorBlue700,
@@ -57,18 +58,18 @@ const ANDROID_THEME_ATTRIBUTES = [
 const styles = StyleSheet.create({
   barOuter: {
     flexDirection: 'column',
-    paddingHorizontal: 8,
+    paddingHorizontal: spacingSm,
     width: '100%',
     backgroundColor: colorBlue500,
     elevation: 3,
   },
   barOuterWithSubtitle: {
-    paddingBottom: 16,
+    paddingBottom: spacingSm,
   },
   bar: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    height: 56,
+    height: spacingSm,
     alignItems: 'center',
   },
   barOnlyTrailingButton: {
@@ -76,8 +77,8 @@ const styles = StyleSheet.create({
   },
   titleString: {
     position: 'absolute',
-    start: 72,
-    bottom: 15,
+    start: spacingSm,
+    bottom: spacingSm,
   },
   titleViewOuter: {
     position: 'absolute',
@@ -89,11 +90,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   leadingIcon: {
-    padding: 8,
+    padding: spacingSm,
     color: colorWhite,
   },
   subtitleViewContainer: {
-    paddingHorizontal: 8,
+    paddingHorizontal: spacingSm,
   },
 });
 
@@ -213,7 +214,7 @@ class BpkNavigationBar extends Component<Props, {}> {
           {React.cloneElement(title, {
             style: [
               title.props.style ? title.props.style : null,
-              { maxHeight: 32 },
+              { maxHeight: spacingSm },
             ],
           })}
         </View>

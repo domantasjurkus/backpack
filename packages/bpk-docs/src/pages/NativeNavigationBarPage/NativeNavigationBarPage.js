@@ -28,6 +28,7 @@ import iosScreenshotModal from 'react-native-bpk-component-navigation-bar/screen
 import androidScreenshotModal from 'react-native-bpk-component-navigation-bar/screenshots/android/modal.png';
 import iosScreenshotTitleIcon from 'react-native-bpk-component-navigation-bar/screenshots/ios/title-icon.png';
 import androidScreenshotTitleIcon from 'react-native-bpk-component-navigation-bar/screenshots/android/title-icon.png';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import DocsPageBuilder from './../../components/DocsPageBuilder';
 
@@ -40,16 +41,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotDefault}`,
         altText: 'iOS Default Navigation Bar',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotDefault}`,
         altText: 'Android Default Navigation Bar',
         subText: '(Google Pixel emulator)',
@@ -63,16 +64,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotModal}`,
         altText: 'iOS Modal Navigation Bar',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotModal}`,
         altText: 'Android Modal Navigation Bar',
         subText: '(Nexus 5 Emulator)',
@@ -87,16 +88,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotSubtitleView}`,
         altText: 'iOS Subtitle  Navigation Bar',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotSubtitleView}`,
         altText: 'Android Subtitle Navigation Bar',
         subText: '(Google Pixel emulator)',
@@ -110,16 +111,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotTitleIcon}`,
         altText: 'iOS Icon Navigation Bar',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotTitleIcon}`,
         altText: 'Android Icon Navigation Bar',
         subText: '(Google Pixel emulator)',

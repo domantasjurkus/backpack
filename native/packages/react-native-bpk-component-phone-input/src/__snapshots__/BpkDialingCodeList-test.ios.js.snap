@@ -190,7 +190,7 @@ exports[`iOS BpkDialingCodeList should render correctly 1`] = `
               Array [
                 Object {
                   "borderColor": "rgb(230, 228, 235)",
-                  "borderWidth": 1,
+                  "borderWidth": 4,
                 },
                 Object {
                   "height": 16,
@@ -365,7 +365,7 @@ exports[`iOS BpkDialingCodeList should render correctly 1`] = `
               Array [
                 Object {
                   "borderColor": "rgb(230, 228, 235)",
-                  "borderWidth": 1,
+                  "borderWidth": 4,
                 },
                 Object {
                   "height": 16,
@@ -540,7 +540,7 @@ exports[`iOS BpkDialingCodeList should render correctly 1`] = `
               Array [
                 Object {
                   "borderColor": "rgb(230, 228, 235)",
-                  "borderWidth": 1,
+                  "borderWidth": 4,
                 },
                 Object {
                   "height": 16,
@@ -821,7 +821,7 @@ exports[`iOS BpkDialingCodeList should render correctly with "selectedId" set 1`
               Array [
                 Object {
                   "borderColor": "rgb(230, 228, 235)",
-                  "borderWidth": 1,
+                  "borderWidth": 4,
                 },
                 Object {
                   "height": 16,
@@ -1001,7 +1001,7 @@ exports[`iOS BpkDialingCodeList should render correctly with "selectedId" set 1`
               Array [
                 Object {
                   "borderColor": "rgb(230, 228, 235)",
-                  "borderWidth": 1,
+                  "borderWidth": 4,
                 },
                 Object {
                   "height": 16,
@@ -1176,7 +1176,7 @@ exports[`iOS BpkDialingCodeList should render correctly with "selectedId" set 1`
               Array [
                 Object {
                   "borderColor": "rgb(230, 228, 235)",
-                  "borderWidth": 1,
+                  "borderWidth": 4,
                 },
                 Object {
                   "height": 16,

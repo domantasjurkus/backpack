@@ -20,7 +20,7 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import BpkText from 'react-native-bpk-component-text';
 import { storiesOf, action } from '@storybook/react-native';
-import { colorWhite } from 'bpk-tokens/tokens/base.react.native';
+import { spacingSm, colorWhite } from 'bpk-tokens/tokens/base.react.native';
 import CenterDecorator from '../../storybook/CenterDecorator';
 
 import BpkTouchableOverlay from './index';
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     backgroundColor: colorWhite,
   },
   view: {
-    padding: 10,
+    padding: spacingSm,
   },
 });
 

@@ -24,7 +24,7 @@ exports[`iOS BpkNavigationBarIconButtonIOS should render correctly 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "marginEnd": 3,
+      "marginEnd": 4,
       "opacity": 1,
       "zIndex": 2,
     }
@@ -86,7 +86,7 @@ exports[`iOS BpkNavigationBarIconButtonIOS should render correctly disabled 1`] 
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "marginStart": 3,
+      "marginStart": 4,
       "opacity": 1,
       "zIndex": 2,
     }
@@ -147,7 +147,7 @@ exports[`iOS BpkNavigationBarIconButtonIOS should render correctly leading confi
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "marginStart": 3,
+      "marginStart": 4,
       "opacity": 1,
       "zIndex": 2,
     }
@@ -209,7 +209,7 @@ exports[`iOS BpkNavigationBarIconButtonIOS should resepect "disabledTintColor" 1
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "marginEnd": 3,
+      "marginEnd": 4,
       "opacity": 1,
       "zIndex": 2,
     }
@@ -270,7 +270,7 @@ exports[`iOS BpkNavigationBarIconButtonIOS should resepect "tintColor" 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "marginEnd": 3,
+      "marginEnd": 4,
       "opacity": 1,
       "zIndex": 2,
     }

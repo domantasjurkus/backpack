@@ -24,6 +24,7 @@ import androidScreenshotDefault from 'react-native-bpk-component-picker/screensh
 
 import iosScreenshotDefaultPickerOpen from 'react-native-bpk-component-picker/screenshots/ios/default-picker-open.png';
 import androidScreenshotDefaultPickerOpen from 'react-native-bpk-component-picker/screenshots/android/default-picker-open.png';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import IntroBlurb from './../../components/IntroBlurb';
 import DocsPageBuilder from './../../components/DocsPageBuilder';
@@ -38,16 +39,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotDefault}`,
         altText: 'iOS Default Nudger Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotDefault}`,
         altText: 'Android Default Nudger Component',
         subText: '(Google Pixel emulator)',
@@ -61,16 +62,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotDefaultPickerOpen}`,
         altText: 'iOS Default Nudger Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotDefaultPickerOpen}`,
         altText: 'Android Default Nudger Component',
         subText: '(Google Pixel emulator)',

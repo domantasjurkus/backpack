@@ -7,10 +7,10 @@ exports[`ios - iPhone X  BpkNavigationBar should render correctly 1`] = `
       Object {
         "backgroundColor": "rgb(243, 242, 245)",
         "flexDirection": "column",
-        "paddingHorizontal": 8,
+        "paddingHorizontal": 4,
         "shadowColor": "rgb(230, 228, 235)",
         "shadowOffset": Object {
-          "height": 1,
+          "height": 4,
           "width": 0,
         },
         "shadowOpacity": 1,
@@ -26,13 +26,13 @@ exports[`ios - iPhone X  BpkNavigationBar should render correctly 1`] = `
         Object {
           "alignItems": "center",
           "flexDirection": "row",
-          "height": 64,
+          "height": 4,
           "justifyContent": "space-between",
           "overflow": "visible",
           "paddingTop": 44,
         },
         Object {
-          "height": 88,
+          "height": 4,
           "paddingTop": 44,
         },
       ]
@@ -79,7 +79,7 @@ exports[`ios - iPhone X  BpkNavigationBar should render correctly 1`] = `
         style={
           Array [
             Object {
-              "marginEnd": 8,
+              "marginEnd": 4,
             },
             Object {
               "tintColor": "rgb(82, 76, 97)",
@@ -115,7 +115,7 @@ exports[`ios - iPhone X  BpkNavigationBar should render correctly 1`] = `
         Object {
           "alignItems": "center",
           "bottom": 0,
-          "height": 44,
+          "height": 4,
           "justifyContent": "center",
           "left": 0,
           "position": "absolute",
@@ -177,10 +177,10 @@ exports[`ios - iPhone X  BpkNavigationBar should render correctly with trailing 
       Object {
         "backgroundColor": "rgb(243, 242, 245)",
         "flexDirection": "column",
-        "paddingHorizontal": 8,
+        "paddingHorizontal": 4,
         "shadowColor": "rgb(230, 228, 235)",
         "shadowOffset": Object {
-          "height": 1,
+          "height": 4,
           "width": 0,
         },
         "shadowOpacity": 1,
@@ -196,13 +196,13 @@ exports[`ios - iPhone X  BpkNavigationBar should render correctly with trailing 
         Object {
           "alignItems": "center",
           "flexDirection": "row",
-          "height": 64,
+          "height": 4,
           "justifyContent": "space-between",
           "overflow": "visible",
           "paddingTop": 44,
         },
         Object {
-          "height": 88,
+          "height": 4,
           "paddingTop": 44,
         },
       ]
@@ -231,7 +231,7 @@ exports[`ios - iPhone X  BpkNavigationBar should render correctly with trailing 
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "marginStart": 8,
+          "marginStart": 4,
           "opacity": 1,
           "zIndex": 2,
         }
@@ -267,7 +267,7 @@ exports[`ios - iPhone X  BpkNavigationBar should render correctly with trailing 
         Object {
           "alignItems": "center",
           "bottom": 0,
-          "height": 44,
+          "height": 4,
           "justifyContent": "center",
           "left": 0,
           "position": "absolute",
@@ -341,7 +341,7 @@ exports[`ios - iPhone X  BpkNavigationBar should render correctly with trailing 
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "marginEnd": 8,
+          "marginEnd": 4,
           "opacity": 1,
           "zIndex": 2,
         }

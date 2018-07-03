@@ -97,7 +97,7 @@ exports[`Android BpkDialingCodeList should render correctly 1`] = `
               Array [
                 Object {
                   "borderColor": "rgb(230, 228, 235)",
-                  "borderWidth": 1,
+                  "borderWidth": 4,
                 },
                 Object {
                   "height": 16,
@@ -184,7 +184,7 @@ exports[`Android BpkDialingCodeList should render correctly 1`] = `
           Object {
             "backgroundColor": "rgb(230, 228, 235)",
             "flex": 1,
-            "height": 1,
+            "height": 4,
             "marginHorizontal": 8,
           }
         }
@@ -240,7 +240,7 @@ exports[`Android BpkDialingCodeList should render correctly 1`] = `
               Array [
                 Object {
                   "borderColor": "rgb(230, 228, 235)",
-                  "borderWidth": 1,
+                  "borderWidth": 4,
                 },
                 Object {
                   "height": 16,
@@ -327,7 +327,7 @@ exports[`Android BpkDialingCodeList should render correctly 1`] = `
           Object {
             "backgroundColor": "rgb(230, 228, 235)",
             "flex": 1,
-            "height": 1,
+            "height": 4,
             "marginHorizontal": 8,
           }
         }
@@ -383,7 +383,7 @@ exports[`Android BpkDialingCodeList should render correctly 1`] = `
               Array [
                 Object {
                   "borderColor": "rgb(230, 228, 235)",
-                  "borderWidth": 1,
+                  "borderWidth": 4,
                 },
                 Object {
                   "height": 16,
@@ -567,7 +567,7 @@ exports[`Android BpkDialingCodeList should render correctly with "selectedId" se
               Array [
                 Object {
                   "borderColor": "rgb(230, 228, 235)",
-                  "borderWidth": 1,
+                  "borderWidth": 4,
                 },
                 Object {
                   "height": 16,
@@ -659,7 +659,7 @@ exports[`Android BpkDialingCodeList should render correctly with "selectedId" se
           Object {
             "backgroundColor": "rgb(230, 228, 235)",
             "flex": 1,
-            "height": 1,
+            "height": 4,
             "marginHorizontal": 8,
           }
         }
@@ -715,7 +715,7 @@ exports[`Android BpkDialingCodeList should render correctly with "selectedId" se
               Array [
                 Object {
                   "borderColor": "rgb(230, 228, 235)",
-                  "borderWidth": 1,
+                  "borderWidth": 4,
                 },
                 Object {
                   "height": 16,
@@ -802,7 +802,7 @@ exports[`Android BpkDialingCodeList should render correctly with "selectedId" se
           Object {
             "backgroundColor": "rgb(230, 228, 235)",
             "flex": 1,
-            "height": 1,
+            "height": 4,
             "marginHorizontal": 8,
           }
         }
@@ -858,7 +858,7 @@ exports[`Android BpkDialingCodeList should render correctly with "selectedId" se
               Array [
                 Object {
                   "borderColor": "rgb(230, 228, 235)",
-                  "borderWidth": 1,
+                  "borderWidth": 4,
                 },
                 Object {
                   "height": 16,

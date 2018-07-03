@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     marginBottom: spacingBase,
   },
   singleRow: {
-    minWidth: 100,
+    minWidth: spacingSm,
   },
   singleIcon: {
     marginHorizontal: spacingSm,

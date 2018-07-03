@@ -24,6 +24,7 @@ import BpkText from 'bpk-component-text';
 import { updateOnDirectionChange } from 'bpk-component-rtl-toggle';
 import { lineHeightSm } from 'bpk-tokens/tokens/base.es6';
 import { scaleLinear, scaleBand } from 'd3-scale';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 import { remToPx } from './src/utils';
 
 import BpkBarchart, {
@@ -52,8 +53,8 @@ const data = require('./data');
 
 const margin = {
   top: 0,
-  left: 40,
-  bottom: 40,
+  left: spacingSm,
+  bottom: spacingSm,
   right: 0,
 };
 

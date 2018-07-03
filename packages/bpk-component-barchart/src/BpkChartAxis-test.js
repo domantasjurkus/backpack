@@ -19,14 +19,15 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { scaleLinear, scaleBand } from 'd3-scale';
+import { spacingSm } from 'bpk-tokens/tokens/base.es6';
 import BpkChartAxis from './BpkChartAxis';
 import { ORIENTATION_X, ORIENTATION_Y } from './orientation';
 
 const margin = {
-  top: 40,
-  right: 40,
-  bottom: 40,
-  left: 40,
+  top: spacingSm,
+  right: spacingSm,
+  bottom: spacingSm,
+  left: spacingSm,
 };
 
 const size = 200;

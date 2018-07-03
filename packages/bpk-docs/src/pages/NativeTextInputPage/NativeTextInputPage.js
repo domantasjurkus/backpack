@@ -22,6 +22,7 @@ import iosScreenshot from 'react-native-bpk-component-text-input/screenshots/ios
 import iosScreenshotWithAccessoryView from 'react-native-bpk-component-text-input/screenshots/ios/text-inputs-with-accessory-view.png';
 import androidScreenshot from 'react-native-bpk-component-text-input/screenshots/android/text-inputs.png';
 import androidScreenshotWithAccessoryView from 'react-native-bpk-component-text-input/screenshots/android/text-inputs-with-accessory-view.png';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import IntroBlurb from './../../components/IntroBlurb';
 import DocsPageBuilder from './../../components/DocsPageBuilder';
@@ -34,16 +35,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshot}`,
         altText: 'iOS text input component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshot}`,
         altText: 'Android text input component',
         subText: '(Google Pixel emulator)',
@@ -56,16 +57,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotWithAccessoryView}`,
         altText: 'iOS Text Input Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotWithAccessoryView}`,
         altText: 'Android Text Input Component',
         subText: '(Google Pixel emulator)',

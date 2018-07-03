@@ -37,7 +37,7 @@ exports[`Android withDivider should render correctly 1`] = `
         Object {
           "backgroundColor": "rgb(230, 228, 235)",
           "flexDirection": "column",
-          "width": 1,
+          "width": 4,
         },
       ]
     }
@@ -103,7 +103,7 @@ exports[`Android withDivider should render correctly with arbitrary props 1`] = 
         Object {
           "backgroundColor": "rgb(230, 228, 235)",
           "flexDirection": "column",
-          "width": 1,
+          "width": 4,
         },
       ]
     }
@@ -171,7 +171,7 @@ exports[`Android withDivider should render correctly with custom main style 1`] 
         Object {
           "backgroundColor": "rgb(230, 228, 235)",
           "flexDirection": "column",
-          "width": 1,
+          "width": 4,
         },
       ]
     }
@@ -236,7 +236,7 @@ exports[`Android withDivider should render correctly with custom stub style 1`] 
         Object {
           "backgroundColor": "rgb(230, 228, 235)",
           "flexDirection": "column",
-          "width": 1,
+          "width": 4,
         },
       ]
     }
@@ -301,7 +301,7 @@ exports[`Android withDivider should render correctly without padding 1`] = `
         Object {
           "backgroundColor": "rgb(230, 228, 235)",
           "flexDirection": "column",
-          "width": 1,
+          "width": 4,
         },
       ]
     }

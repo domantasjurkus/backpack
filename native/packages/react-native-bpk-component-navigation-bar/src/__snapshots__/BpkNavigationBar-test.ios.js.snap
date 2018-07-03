@@ -7,10 +7,10 @@ exports[`ios BpkNavigationBar should render correctly 1`] = `
       Object {
         "backgroundColor": "rgb(243, 242, 245)",
         "flexDirection": "column",
-        "paddingHorizontal": 8,
+        "paddingHorizontal": 4,
         "shadowColor": "rgb(230, 228, 235)",
         "shadowOffset": Object {
-          "height": 1,
+          "height": 4,
           "width": 0,
         },
         "shadowOpacity": 1,
@@ -26,7 +26,7 @@ exports[`ios BpkNavigationBar should render correctly 1`] = `
         Object {
           "alignItems": "center",
           "flexDirection": "row",
-          "height": 64,
+          "height": 4,
           "justifyContent": "space-between",
           "overflow": "visible",
           "paddingTop": 20,
@@ -76,7 +76,7 @@ exports[`ios BpkNavigationBar should render correctly 1`] = `
         style={
           Array [
             Object {
-              "marginEnd": 8,
+              "marginEnd": 4,
             },
             Object {
               "tintColor": "rgb(82, 76, 97)",
@@ -112,7 +112,7 @@ exports[`ios BpkNavigationBar should render correctly 1`] = `
         Object {
           "alignItems": "center",
           "bottom": 0,
-          "height": 44,
+          "height": 4,
           "justifyContent": "center",
           "left": 0,
           "position": "absolute",
@@ -174,10 +174,10 @@ exports[`ios BpkNavigationBar should render correctly with a subtitle view 1`] =
       Object {
         "backgroundColor": "rgb(243, 242, 245)",
         "flexDirection": "column",
-        "paddingHorizontal": 8,
+        "paddingHorizontal": 4,
         "shadowColor": "rgb(230, 228, 235)",
         "shadowOffset": Object {
-          "height": 1,
+          "height": 4,
           "width": 0,
         },
         "shadowOpacity": 1,
@@ -185,7 +185,7 @@ exports[`ios BpkNavigationBar should render correctly with a subtitle view 1`] =
         "width": "100%",
       },
       Object {
-        "paddingBottom": 16,
+        "paddingBottom": 4,
       },
     ]
   }
@@ -196,7 +196,7 @@ exports[`ios BpkNavigationBar should render correctly with a subtitle view 1`] =
         Object {
           "alignItems": "center",
           "flexDirection": "row",
-          "height": 64,
+          "height": 4,
           "justifyContent": "space-between",
           "overflow": "visible",
           "paddingTop": 20,
@@ -246,7 +246,7 @@ exports[`ios BpkNavigationBar should render correctly with a subtitle view 1`] =
         style={
           Array [
             Object {
-              "marginEnd": 8,
+              "marginEnd": 4,
             },
             Object {
               "tintColor": "rgb(82, 76, 97)",
@@ -282,7 +282,7 @@ exports[`ios BpkNavigationBar should render correctly with a subtitle view 1`] =
         Object {
           "alignItems": "center",
           "bottom": 0,
-          "height": 44,
+          "height": 4,
           "justifyContent": "center",
           "left": 0,
           "position": "absolute",
@@ -337,7 +337,7 @@ exports[`ios BpkNavigationBar should render correctly with a subtitle view 1`] =
   <View
     style={
       Object {
-        "paddingHorizontal": 8,
+        "paddingHorizontal": 4,
       }
     }
   >
@@ -355,10 +355,10 @@ exports[`ios BpkNavigationBar should render correctly with a title view 1`] = `
       Object {
         "backgroundColor": "rgb(243, 242, 245)",
         "flexDirection": "column",
-        "paddingHorizontal": 8,
+        "paddingHorizontal": 4,
         "shadowColor": "rgb(230, 228, 235)",
         "shadowOffset": Object {
-          "height": 1,
+          "height": 4,
           "width": 0,
         },
         "shadowOpacity": 1,
@@ -374,7 +374,7 @@ exports[`ios BpkNavigationBar should render correctly with a title view 1`] = `
         Object {
           "alignItems": "center",
           "flexDirection": "row",
-          "height": 64,
+          "height": 4,
           "justifyContent": "space-between",
           "overflow": "visible",
           "paddingTop": 20,
@@ -424,7 +424,7 @@ exports[`ios BpkNavigationBar should render correctly with a title view 1`] = `
         style={
           Array [
             Object {
-              "marginEnd": 8,
+              "marginEnd": 4,
             },
             Object {
               "tintColor": "rgb(82, 76, 97)",
@@ -460,7 +460,7 @@ exports[`ios BpkNavigationBar should render correctly with a title view 1`] = `
         Object {
           "alignItems": "center",
           "bottom": 0,
-          "height": 44,
+          "height": 4,
           "justifyContent": "center",
           "left": 0,
           "position": "absolute",
@@ -474,7 +474,7 @@ exports[`ios BpkNavigationBar should render correctly with a title view 1`] = `
           Array [
             null,
             Object {
-              "maxHeight": 28,
+              "maxHeight": 4,
             },
           ]
         }
@@ -492,10 +492,10 @@ exports[`ios BpkNavigationBar should render correctly with an icon in the title 
       Object {
         "backgroundColor": "rgb(243, 242, 245)",
         "flexDirection": "column",
-        "paddingHorizontal": 8,
+        "paddingHorizontal": 4,
         "shadowColor": "rgb(230, 228, 235)",
         "shadowOffset": Object {
-          "height": 1,
+          "height": 4,
           "width": 0,
         },
         "shadowOpacity": 1,
@@ -511,7 +511,7 @@ exports[`ios BpkNavigationBar should render correctly with an icon in the title 
         Object {
           "alignItems": "center",
           "flexDirection": "row",
-          "height": 64,
+          "height": 4,
           "justifyContent": "space-between",
           "overflow": "visible",
           "paddingTop": 20,
@@ -561,7 +561,7 @@ exports[`ios BpkNavigationBar should render correctly with an icon in the title 
         style={
           Array [
             Object {
-              "marginEnd": 8,
+              "marginEnd": 4,
             },
             Object {
               "tintColor": "rgb(82, 76, 97)",
@@ -597,7 +597,7 @@ exports[`ios BpkNavigationBar should render correctly with an icon in the title 
         Object {
           "alignItems": "center",
           "bottom": 0,
-          "height": 44,
+          "height": 4,
           "justifyContent": "center",
           "left": 0,
           "position": "absolute",
@@ -689,10 +689,10 @@ exports[`ios BpkNavigationBar should render correctly with custom style 1`] = `
       Object {
         "backgroundColor": "rgb(243, 242, 245)",
         "flexDirection": "column",
-        "paddingHorizontal": 8,
+        "paddingHorizontal": 4,
         "shadowColor": "rgb(230, 228, 235)",
         "shadowOffset": Object {
-          "height": 1,
+          "height": 4,
           "width": 0,
         },
         "shadowOpacity": 1,
@@ -711,7 +711,7 @@ exports[`ios BpkNavigationBar should render correctly with custom style 1`] = `
         Object {
           "alignItems": "center",
           "flexDirection": "row",
-          "height": 64,
+          "height": 4,
           "justifyContent": "space-between",
           "overflow": "visible",
           "paddingTop": 20,
@@ -761,7 +761,7 @@ exports[`ios BpkNavigationBar should render correctly with custom style 1`] = `
         style={
           Array [
             Object {
-              "marginEnd": 8,
+              "marginEnd": 4,
             },
             Object {
               "tintColor": "rgb(82, 76, 97)",
@@ -797,7 +797,7 @@ exports[`ios BpkNavigationBar should render correctly with custom style 1`] = `
         Object {
           "alignItems": "center",
           "bottom": 0,
-          "height": 44,
+          "height": 4,
           "justifyContent": "center",
           "left": 0,
           "position": "absolute",
@@ -859,10 +859,10 @@ exports[`ios BpkNavigationBar should render correctly with trailing button 1`] =
       Object {
         "backgroundColor": "rgb(243, 242, 245)",
         "flexDirection": "column",
-        "paddingHorizontal": 8,
+        "paddingHorizontal": 4,
         "shadowColor": "rgb(230, 228, 235)",
         "shadowOffset": Object {
-          "height": 1,
+          "height": 4,
           "width": 0,
         },
         "shadowOpacity": 1,
@@ -878,7 +878,7 @@ exports[`ios BpkNavigationBar should render correctly with trailing button 1`] =
         Object {
           "alignItems": "center",
           "flexDirection": "row",
-          "height": 64,
+          "height": 4,
           "justifyContent": "space-between",
           "overflow": "visible",
           "paddingTop": 20,
@@ -910,7 +910,7 @@ exports[`ios BpkNavigationBar should render correctly with trailing button 1`] =
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "marginStart": 8,
+          "marginStart": 4,
           "opacity": 1,
           "zIndex": 2,
         }
@@ -946,7 +946,7 @@ exports[`ios BpkNavigationBar should render correctly with trailing button 1`] =
         Object {
           "alignItems": "center",
           "bottom": 0,
-          "height": 44,
+          "height": 4,
           "justifyContent": "center",
           "left": 0,
           "position": "absolute",
@@ -1020,7 +1020,7 @@ exports[`ios BpkNavigationBar should render correctly with trailing button 1`] =
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "marginEnd": 8,
+          "marginEnd": 4,
           "opacity": 1,
           "zIndex": 2,
         }

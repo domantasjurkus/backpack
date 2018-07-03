@@ -23,6 +23,7 @@ import PropTypes from 'prop-types';
 import { ScrollView, StyleSheet, View } from 'react-native';
 import { storiesOf } from '@storybook/react-native';
 import {
+  spacingSm,
   colorGray100,
   colorGray500,
   spacingBase,
@@ -39,7 +40,7 @@ const styles = StyleSheet.create({
     flex: 0.3,
     backgroundColor: colorGray100,
     borderColor: colorGray500,
-    borderWidth: 1,
+    borderWidth: spacingSm,
   },
 });
 

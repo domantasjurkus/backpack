@@ -26,6 +26,7 @@ import iosThreeButton from 'react-native-bpk-component-alert/screenshots/ios/thr
 import androidScreenshotDefault from 'react-native-bpk-component-alert/screenshots/android/default.png';
 import androidCancelable from 'react-native-bpk-component-alert/screenshots/android/cancelable.png';
 import androidThreeButton from 'react-native-bpk-component-alert/screenshots/android/three-button.png';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import IntroBlurb from './../../components/IntroBlurb';
 import DocsPageBuilder from './../../components/DocsPageBuilder';
@@ -39,16 +40,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotDefault}`,
         altText: 'iOS Default Alert Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotDefault}`,
         altText: 'Android Default Alert Component',
         subText: '(Google Pixel emulator)',
@@ -68,16 +69,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosCancelable}`,
         altText: 'iOS Cancelable Alert Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidCancelable}`,
         altText: 'Android Cancelable Alert Component',
         subText: '(Google Pixel emulator)',
@@ -97,16 +98,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosThreeButton}`,
         altText: 'iOS Three button Alert Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidThreeButton}`,
         altText: 'Android Three button Alert Component',
         subText: '(Google Pixel emulator)',

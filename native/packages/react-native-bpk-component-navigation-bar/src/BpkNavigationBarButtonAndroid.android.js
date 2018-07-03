@@ -21,16 +21,20 @@ import PropTypes from 'prop-types';
 import { StyleSheet, View } from 'react-native';
 import BpkTouchableNativeFeedback from 'react-native-bpk-component-touchable-native-feedback';
 import BpkIcon, { icons } from 'react-native-bpk-component-icon';
-import { colorWhite, colorBlue300 } from 'bpk-tokens/tokens/base.react.native';
+import {
+  spacingSm,
+  colorWhite,
+  colorBlue300,
+} from 'bpk-tokens/tokens/base.react.native';
 import { setOpacity } from 'bpk-tokens';
 
 // NOTE: this file explicitly does not use the Backpack tokens because it's based on Material design tokens not Backpack.
 const styles = StyleSheet.create({
   clipView: {
-    borderRadius: 40,
+    borderRadius: spacingSm,
   },
   icon: {
-    padding: 8,
+    padding: spacingSm,
   },
 });
 

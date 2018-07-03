@@ -24,6 +24,7 @@ import iosScreenshotDefault from 'react-native-bpk-component-progress/screenshot
 import androidScreenshotDefault from 'react-native-bpk-component-progress/screenshots/android/default.png';
 import iosScreenshotBar from 'react-native-bpk-component-progress/screenshots/ios/bar.png';
 import androidScreenshotBar from 'react-native-bpk-component-progress/screenshots/android/bar.png';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import DocsPageBuilder from './../../components/DocsPageBuilder';
 
@@ -36,16 +37,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotDefault}`,
         altText: 'iOS Progress Bar (Default)',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotDefault}`,
         altText: 'Android Progress Bar (Default)',
         subText: '(Google Pixel emulator)',
@@ -60,16 +61,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotBar}`,
         altText: 'iOS Progress Bar (Bar)',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotBar}`,
         altText: 'Android Progress Bar (Bar)',
         subText: '(Google Pixel emulator)',

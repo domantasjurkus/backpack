@@ -21,6 +21,7 @@
 import { Platform, StyleSheet, View } from 'react-native';
 import React from 'react';
 import {
+  spacingSm,
   spacingMd,
   spacingBase,
   colorGray100,
@@ -29,7 +30,7 @@ import {
 const styles = StyleSheet.create({
   separator: {
     flex: 1,
-    height: 1,
+    height: spacingSm,
     backgroundColor: colorGray100,
     ...Platform.select({
       ios: {

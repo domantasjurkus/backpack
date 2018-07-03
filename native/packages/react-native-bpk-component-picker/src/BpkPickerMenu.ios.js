@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: spacingMd,
     flexDirection: 'row',
     backgroundColor: colorGray50,
-    borderTopWidth: 1,
+    borderTopWidth: spacingSm,
     borderColor: colorGray200,
     justifyContent: 'flex-end',
   },

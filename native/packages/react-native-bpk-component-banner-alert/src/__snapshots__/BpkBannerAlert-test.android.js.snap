@@ -9,7 +9,7 @@ exports[`Android BpkBannerAlert should accept userland styling 1`] = `
       "height": null,
       "opacity": 1,
       "overflow": "hidden",
-      "width": 50,
+      "width": 4,
     }
   }
 >
@@ -32,7 +32,7 @@ exports[`Android BpkBannerAlert should accept userland styling 1`] = `
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]
@@ -113,7 +113,7 @@ exports[`Android BpkBannerAlert should accept userland styling 1`] = `
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]
@@ -215,7 +215,7 @@ exports[`Android BpkBannerAlert should render correctly when not shown 1`] = `
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]
@@ -296,7 +296,7 @@ exports[`Android BpkBannerAlert should render correctly when not shown 1`] = `
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]
@@ -398,7 +398,7 @@ exports[`Android BpkBannerAlert should render correctly with animateOnEnter 1`] 
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]
@@ -479,7 +479,7 @@ exports[`Android BpkBannerAlert should render correctly with animateOnEnter 1`] 
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]
@@ -581,7 +581,7 @@ exports[`Android BpkBannerAlert should render correctly with animateOnLeave 1`] 
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]
@@ -662,7 +662,7 @@ exports[`Android BpkBannerAlert should render correctly with animateOnLeave 1`] 
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]
@@ -764,7 +764,7 @@ exports[`Android BpkBannerAlert should render correctly with children provided (
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]
@@ -965,7 +965,7 @@ exports[`Android BpkBannerAlert should render correctly with children provided (
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]
@@ -1187,7 +1187,7 @@ exports[`Android BpkBannerAlert should render correctly with dismissable 1`] = `
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]
@@ -1338,7 +1338,7 @@ exports[`Android BpkBannerAlert should render correctly with dismissable 1`] = `
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]
@@ -1510,7 +1510,7 @@ exports[`Android BpkBannerAlert should render correctly with expanded 1`] = `
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]
@@ -1711,7 +1711,7 @@ exports[`Android BpkBannerAlert should render correctly with expanded 1`] = `
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]
@@ -1933,7 +1933,7 @@ exports[`Android BpkBannerAlert should render correctly with type equal to error
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]
@@ -2014,7 +2014,7 @@ exports[`Android BpkBannerAlert should render correctly with type equal to error
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]
@@ -2116,7 +2116,7 @@ exports[`Android BpkBannerAlert should render correctly with type equal to neutr
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]
@@ -2197,7 +2197,7 @@ exports[`Android BpkBannerAlert should render correctly with type equal to neutr
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]
@@ -2299,7 +2299,7 @@ exports[`Android BpkBannerAlert should render correctly with type equal to succe
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]
@@ -2380,7 +2380,7 @@ exports[`Android BpkBannerAlert should render correctly with type equal to succe
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]
@@ -2482,7 +2482,7 @@ exports[`Android BpkBannerAlert should render correctly with type equal to warn 
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]
@@ -2563,7 +2563,7 @@ exports[`Android BpkBannerAlert should render correctly with type equal to warn 
           Object {
             "backgroundColor": "rgb(243, 242, 245)",
             "borderRadius": 2,
-            "minHeight": 1,
+            "minHeight": 4,
           },
           null,
         ]

@@ -21,7 +21,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { I18nManager, Image, StyleSheet, TouchableOpacity } from 'react-native';
 import BpkText from 'react-native-bpk-component-text';
-import { colorGray700 } from 'bpk-tokens/tokens/base.react.native';
+import { spacingSm, colorGray700 } from 'bpk-tokens/tokens/base.react.native';
 
 const chevron = I18nManager.isRTL
   ? require('./chevron-right.png')
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   backIcon: {
-    marginEnd: 8,
+    marginEnd: spacingSm,
   },
 });
 

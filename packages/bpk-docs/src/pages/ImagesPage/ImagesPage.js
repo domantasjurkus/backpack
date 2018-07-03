@@ -24,6 +24,7 @@ import BpkImage, {
 
 import imagesReadme from 'bpk-component-image/readme.md';
 import * as BREAKPOINTS from 'bpk-tokens/tokens/breakpoints.es6';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import DocsPageBuilder from './../../components/DocsPageBuilder';
 import DocsPageWrapper from './../../components/DocsPageWrapper';
@@ -80,7 +81,7 @@ const components = [
         altText="Waterfall"
         width={612}
         height={408}
-        style={{ maxWidth: 512 }}
+        style={{ maxWidth: spacingSm }}
         src={image2}
         srcSet={`${image2}?resize=320px:213px&quality=100 320w,
           ${image2}?resize=640px:226px&quality=100 640w,

@@ -24,7 +24,7 @@ exports[`iOS BpkNavigationBarTextButtonIOS should render correctly 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "marginEnd": 8,
+      "marginEnd": 4,
       "opacity": 1,
       "zIndex": 2,
     }
@@ -82,7 +82,7 @@ exports[`iOS BpkNavigationBarTextButtonIOS should render correctly disabled 1`] 
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "marginEnd": 8,
+      "marginEnd": 4,
       "opacity": 1,
       "zIndex": 2,
     }
@@ -139,7 +139,7 @@ exports[`iOS BpkNavigationBarTextButtonIOS should render correctly emphasize 1`]
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "marginEnd": 8,
+      "marginEnd": 4,
       "opacity": 1,
       "zIndex": 2,
     }
@@ -199,7 +199,7 @@ exports[`iOS BpkNavigationBarTextButtonIOS should render correctly leading confi
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "marginStart": 8,
+      "marginStart": 4,
       "opacity": 1,
       "zIndex": 2,
     }
@@ -257,7 +257,7 @@ exports[`iOS BpkNavigationBarTextButtonIOS should resepect "disabledTintColor" 1
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "marginEnd": 8,
+      "marginEnd": 4,
       "opacity": 1,
       "zIndex": 2,
     }
@@ -314,7 +314,7 @@ exports[`iOS BpkNavigationBarTextButtonIOS should resepect "tintColor" 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "marginEnd": 8,
+      "marginEnd": 4,
       "opacity": 1,
       "zIndex": 2,
     }

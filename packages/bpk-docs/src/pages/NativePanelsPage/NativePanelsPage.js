@@ -27,6 +27,7 @@ import iosScreenshotWithDivider from 'react-native-bpk-component-panel/screensho
 import androidScreenshotWithDivider from 'react-native-bpk-component-panel/screenshots/android/with-divider.png';
 import iosScreenshotWithDividerArrangedVertically from 'react-native-bpk-component-panel/screenshots/ios/with-divider-arranged-vertically.png';
 import androidScreenshotWithDividerArrangedVertically from 'react-native-bpk-component-panel/screenshots/android/with-divider-arranged-vertically.png';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import DocsPageBuilder from './../../components/DocsPageBuilder';
 
@@ -39,16 +40,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotDefault}`,
         altText: 'iOS Default Panel Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotDefault}`,
         altText: 'Android Default Panel Component',
         subText: '(Google Pixel emulator)',
@@ -63,16 +64,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotWithoutPadding}`,
         altText: 'iOS Panel Without Padding Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotWithoutPadding}`,
         altText: 'Android Panel Without Padding Component',
         subText: '(Google Pixel emulator)',
@@ -87,16 +88,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotWithDivider}`,
         altText: 'iOS Panel With Divider Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotWithDivider}`,
         altText: 'Android Panel With Divider Component',
         subText: '(Google Pixel emulator)',
@@ -111,16 +112,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotWithDividerArrangedVertically}`,
         altText: 'iOS Panel With Divider Arranged Vertically Component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotWithDividerArrangedVertically}`,
         altText: 'Android Panel With Divider Arranged Vertically Component',
         subText: '(Google Pixel emulator)',

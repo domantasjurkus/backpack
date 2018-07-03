@@ -21,7 +21,11 @@
 import PropTypes from 'prop-types';
 import React, { type ComponentType } from 'react';
 import { View, StyleSheet, ViewPropTypes, type Node } from 'react-native';
-import { colorGray100, spacingBase } from 'bpk-tokens/tokens/base.react.native';
+import {
+  spacingSm,
+  colorGray100,
+  spacingBase,
+} from 'bpk-tokens/tokens/base.react.native';
 
 import BpkPanel, { type Props as BpkPanelProps } from './BpkPanel';
 
@@ -42,13 +46,13 @@ const styles = StyleSheet.create({
     padding: spacingBase,
   },
   panelPunchline: {
-    width: 1,
+    width: spacingSm,
     flexDirection: 'column',
     backgroundColor: colorGray100,
   },
   panelPunchlineVertical: {
     width: null,
-    height: 1,
+    height: spacingSm,
     flexDirection: 'row',
   },
   panelStub: {

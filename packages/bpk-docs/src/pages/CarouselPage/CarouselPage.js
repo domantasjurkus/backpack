@@ -23,6 +23,7 @@ import readme from 'react-native-bpk-component-carousel/readme.md';
 
 import iosScreenshotDefault from 'react-native-bpk-component-carousel/screenshots/ios/default.png';
 import androidScreenshotDefault from 'react-native-bpk-component-carousel/screenshots/android/default.png';
+import { spacingSm } from 'bpk-tokens/tokens/base.react.native';
 
 import DocsPageWrapper from './../../components/DocsPageWrapper';
 import IntroBlurb from './../../components/IntroBlurb';
@@ -41,16 +42,16 @@ const components = [
     screenshots: [
       {
         title: 'iOS',
-        width: 750,
-        height: 1334,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${iosScreenshotDefault}`,
         altText: 'iOS default carousel component',
         subText: '(iPhone 8 simulator)',
       },
       {
         title: 'Android',
-        width: 1080,
-        height: 1920,
+        width: spacingSm,
+        height: spacingSm,
         src: `/${androidScreenshotDefault}`,
         altText: 'Android default carousel component',
         subText: '(Google Pixel emulator)',

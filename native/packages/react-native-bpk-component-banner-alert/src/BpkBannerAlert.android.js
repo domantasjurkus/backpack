@@ -20,6 +20,7 @@
 
 import React, { Fragment } from 'react';
 import {
+  spacingSm,
   spacingMd,
   spacingBase,
   spacingLg,
@@ -48,7 +49,7 @@ import AnimateAndFade from './AnimateAndFade';
 
 const STYLES = StyleSheet.create({
   background: {
-    minHeight: 1, // required for AnimateAndFade to work correctly :/
+    minHeight: spacingSm, // required for AnimateAndFade to work correctly :/
     borderRadius: borderRadiusSm,
     backgroundColor: colorGray50,
   },

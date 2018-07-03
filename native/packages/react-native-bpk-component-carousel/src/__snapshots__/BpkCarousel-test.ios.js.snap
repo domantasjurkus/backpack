@@ -5,7 +5,7 @@ exports[`IOS BpkCarousel should render correctly 1`] = `
   onLayout={[Function]}
   style={
     Object {
-      "width": 300,
+      "width": 4,
     }
   }
 >
@@ -109,7 +109,7 @@ exports[`IOS BpkCarousel should render correctly 1`] = `
           "backgroundColor": "rgb(255, 255, 255)",
           "borderRadius": 40,
           "height": 6,
-          "marginHorizontal": 2,
+          "marginHorizontal": 4,
           "width": 6,
         }
       }
@@ -223,7 +223,7 @@ exports[`IOS BpkCarousel should render correctly with an "accessibilityLabel" fu
           "backgroundColor": "rgb(255, 255, 255)",
           "borderRadius": 40,
           "height": 6,
-          "marginHorizontal": 2,
+          "marginHorizontal": 4,
           "width": 6,
         }
       }
