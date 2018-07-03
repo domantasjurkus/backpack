@@ -55,7 +55,8 @@
     "check-owners": "npm whoami && ( node scripts/npm/get-owners.js | grep -E $(npm whoami) ) && node scripts/npm/check-owners.js",
     "publish": "npm run check-owners && npm run build && git pull --rebase && npm run flow stop && npm run test && lerna publish",
     "danger": "danger ci",
-    "prettier": "prettier --config .prettierrc --write \"**/*.js\""
+    "prettier": "prettier --config .prettierrc --write \"**/*.js\"",
+    "new-component": "node scripts/create-component.js"
   },
   "lint-staged": {
     "*.js": [
@@ -135,6 +136,7 @@
     "postcss-flexbugs-fixes": "^3.2.0",
     "postcss-loader": "^2.0.10",
     "prettier": "^1.13.5",
+    "prompt": "^1.0.0",
     "prop-types": "^15.5.10",
     "punycode": "^2.1.0",
     "raw-loader": "^0.5.1",
